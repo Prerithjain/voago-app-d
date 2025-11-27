@@ -42,8 +42,9 @@ app.add_middleware(
         "http://localhost:5173",
         "http://localhost:5174", 
         "http://localhost:3000",
-        "https://voago-app-lmqwpeok1-prerithjains-projects.vercel.app",  # Add your actual Vercel URL here
-        "https://voago-app-d-prerithjains-projects.vercel.app",  # Alternative Vercel URL format
+        "https://voago-app-lmqwpeok1-prerithjains-projects.vercel.app",
+        "https://voago-app-d-prerithjains-projects.vercel.app",
+        "https://voago-app-d-wz15.vercel.app",  # New Vercel production URL
     ],
     allow_credentials=True,
     allow_methods=["*"],
