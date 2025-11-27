@@ -42,7 +42,7 @@ app.add_middleware(
         "http://localhost:5173",
         "http://localhost:5174", 
         "http://localhost:3000",
-        "https://voago-app-d.vercel.app/",  # Add your actual Vercel URL here
+        "https://voago-app-lmqwpeok1-prerithjains-projects.vercel.app",  # Add your actual Vercel URL here
         "https://voago-app-d-prerithjains-projects.vercel.app",  # Alternative Vercel URL format
     ],
     allow_credentials=True,
