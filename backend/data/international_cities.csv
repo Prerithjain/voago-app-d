@@ -1,0 +1,21 @@
+Name,City,State,Type,Latitude,Longitude,Google_review_rating,Entrance_Fee_INR,time_needed_to_visit_hrs,Best_Time_to_visit,Significance,DSLR_Allowed,Number_of_google_reviews_in_lakhs,Kid_Friendly,Activity_Type
+Eiffel Tower,Paris,France,Monument,48.8584,2.2945,4.7,2500,3,April-October,International,Yes,5.2,Yes,Sightseeing
+Louvre Museum,Paris,France,Museum,48.8606,2.3376,4.7,1800,4,Year-round,International,Yes,4.1,Yes,Museum
+Times Square,New York,USA,Landmark,40.7580,-73.9855,4.7,0,2,Year-round,International,Yes,3.8,Yes,Sightseeing
+Central Park,New York,USA,Park,40.7829,-73.9654,4.8,0,4,April-November,International,Yes,2.5,Yes,Nature
+Statue of Liberty,New York,USA,Monument,40.6892,-74.0445,4.6,2200,3,April-October,International,Yes,1.8,Yes,Sightseeing
+Tokyo Tower,Tokyo,Japan,Monument,35.6586,139.7454,4.6,1200,2,March-May,International,Yes,2.1,Yes,Sightseeing
+Senso-ji Temple,Tokyo,Japan,Temple,35.7148,139.7967,4.7,0,2,Year-round,International,Yes,1.5,Yes,Religious
+Big Ben,London,UK,Monument,51.5007,-0.1246,4.8,0,1,May-September,International,Yes,4.5,Yes,Sightseeing
+London Eye,London,UK,Attraction,51.5033,-0.1195,4.5,3000,1,Year-round,International,Yes,3.2,Yes,Sightseeing
+Colosseum,Rome,Italy,Monument,41.8902,12.4922,4.7,1600,3,April-October,International,Yes,4.8,Yes,Sightseeing
+Burj Khalifa,Dubai,UAE,Landmark,25.1972,55.2744,4.7,4000,3,October-March,International,Yes,3.5,Yes,Sightseeing
+Marina Bay Sands,Singapore,Singapore,Landmark,1.2834,103.8607,4.7,0,3,Year-round,International,Yes,2.2,Yes,Sightseeing
+Opera House,Sydney,Australia,Landmark,-33.8568,151.2153,4.7,2500,2,September-November,International,Yes,1.9,Yes,Sightseeing
+Santorini,Santorini,Greece,Island,36.3932,25.4615,4.8,0,48,April-October,International,Yes,1.2,Yes,Nature
+Grand Canyon,Arizona,USA,Nature,36.1069,-112.1129,4.8,3000,6,March-May,International,Yes,2.8,Yes,Nature
+Machu Picchu,Cusco,Peru,Monument,-13.1631,-72.5450,4.8,4500,5,April-October,International,Yes,1.5,Yes,Sightseeing
+Taj Mahal,Agra,India,Monument,27.1751,78.0421,4.8,1100,3,October-March,International,Yes,4.2,Yes,Sightseeing
+Great Wall of China,Beijing,China,Monument,40.4319,116.5704,4.6,1500,4,April-October,International,Yes,3.1,Yes,Sightseeing
+Disney World,Orlando,USA,Theme Park,28.3852,-81.5639,4.7,10000,8,Year-round,International,Yes,5.5,Yes,Adventure
+Universal Studios,Osaka,Japan,Theme Park,34.6654,135.4323,4.7,6000,7,Year-round,International,Yes,2.5,Yes,Adventure
