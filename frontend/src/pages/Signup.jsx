@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
 const Signup = () => {
     const [formData, setFormData] = useState({
         full_name: '',
@@ -24,7 +26,7 @@ const Signup = () => {
             return;
         }
         try {
-            await axios.post('http://localhost:8000/api/auth/signup', formData, { withCredentials: true });
+            await axios.post(`${API_URL}/api/auth/signup`, formData, { withCredentials: true });
             navigate('/login');
         } catch (err) {
             setError(err.response?.data?.detail || "Signup failed");

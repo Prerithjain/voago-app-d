@@ -4,6 +4,8 @@ import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import RocketTransition from "../components/RocketTransition";
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
 // Teddy Face Component
 function TeddyFace({ state }) {
     const closed = state === "cover_eyes" || state === "close_eyes";
@@ -54,7 +56,7 @@ export default function Login() {
         setAnim("close_eyes");
         try {
             const res = await axios.post(
-                "http://localhost:8000/api/auth/login",
+                `${API_URL}/api/auth/login`,
                 { email, password },
                 { withCredentials: true }
             );
